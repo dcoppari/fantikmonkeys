@@ -1,0 +1,56 @@
+html {
+  font-family: "inter", sans-serif;
+}
+
+.navbar-menu a {
+  color: black;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar-menu a:hover {
+  background-color: black;
+  color: white !important;
+}
+
+.logo {
+  font-family: "Russo One", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header .row {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    font-size: 20px;
+  }
+}
+
+footer a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+
+/*** Products Section ***/
+.products .card:hover,
+.products .card:active {
+  background-color: #eee;
+}
+
+.products .card-body {
+  text-align: center;
+}
+
+/*** Live Section ***/
+.live .bit-top-track-button,
+.live .bit-nav-bar-container {
+  display: none !important;
+}
