@@ -23,6 +23,10 @@ La página cuenta con un diseño moderno y atractivo, que utiliza las últimas t
 - img/: directorio que contiene los archivos estáticos de la página, como imágenes.
 - sections/: directorio que contiene los archivos htmls utilizados en las secciones de la página.
 
+## Estructura del sitio
+
+![Wireframe](img/wireframes.png)
+
 ## Créditos
 
 Este proyecto ha sido desarrollado como trabajo práctico para el curso de Desarrollador Web de Coderhouse.
