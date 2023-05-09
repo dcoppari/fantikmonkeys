@@ -2,19 +2,25 @@ html {
   font-family: "inter", sans-serif;
 }
 
-/** Include Partials **/
+/********************/
+/** Header Section **/
+/********************/
 header .row {
   width: 100%;
   align-items: center;
   justify-content: space-between;
 }
 
+/********************/
+/** Footer Section **/
+/********************/
 footer a {
   font-size: 1.5em;
   text-decoration: none;
   color: black;
 }
 
+/** Logo formatting **/
 .logo {
   font-family: "Russo One", sans-serif;
   font-size: 40px;
@@ -26,6 +32,7 @@ footer a {
   }
 }
 
+/** Navigation Menu Bar **/
 .navbar-menu a {
   color: black;
   font-size: 1.5em;
@@ -38,7 +45,7 @@ footer a {
   color: white !important;
 }
 
-/** Section Specific Partials **/
+/** Store Section **/
 .products .card-container {
   touch-action: manipulation;
 }
@@ -54,6 +61,7 @@ footer a {
   text-align: center;
 }
 
+/** Live embeded object styling **/
 .live .bit-top-track-button,
 .live .bit-nav-bar-container {
   display: none !important;

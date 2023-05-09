@@ -1,18 +1,11 @@
 @import "variables";
 @import "common";
 
-/** Include Partials **/
 @import "partials/header";
 @import "partials/footer";
+
 @import "partials/logo";
 @import "partials/navbar";
 
-/** Section Specific Partials **/
 @import "partials/products";
-
-.live {
-  .bit-top-track-button,
-  .bit-nav-bar-container {
-    display: none !important;
-  }
-}
+@import "partials/live";
