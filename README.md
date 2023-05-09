@@ -19,7 +19,8 @@ La página cuenta con un diseño moderno y atractivo, que utiliza las últimas t
 ## Estructura de archivos
 
 - index.html: archivo HTML principal que define la estructura de la página.
-- style.css: archivo CSS utilizado en todas las secciones de la página.
+- css/style.css: archivo CSS utilizado en todas las secciones de la página el mismo se genera a partir de compilar sass.
+- scss/: directorio que contiene los archivos de estilos en formato sass.
 - img/: directorio que contiene los archivos estáticos de la página, como imágenes.
 - sections/: directorio que contiene los archivos htmls utilizados en las secciones de la página.
 

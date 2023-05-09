@@ -1,0 +1,62 @@
+html {
+  font-family: "inter", sans-serif;
+}
+
+/** Include Partials **/
+header .row {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  font-family: "Russo One", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    font-size: 20px;
+  }
+}
+
+.navbar-menu a {
+  color: black;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar-menu a:hover {
+  background-color: #000;
+  color: white !important;
+}
+
+/** Section Specific Partials **/
+.products .card-container {
+  touch-action: manipulation;
+}
+.products .card:hover, .products .card:active {
+  background-color: #eee;
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  z-index: 9;
+}
+.products .card-body {
+  text-align: center;
+}
+
+.live .bit-top-track-button,
+.live .bit-nav-bar-container {
+  display: none !important;
+}
+
+/*# sourceMappingURL=style.css.map */

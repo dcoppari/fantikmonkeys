@@ -1,0 +1,21 @@
+.products {
+  .card-container {
+    touch-action: manipulation;
+  }
+
+  .card {
+    &:hover,
+    &:active {
+      background-color: #eee;
+      -webkit-transform: scale(1.1);
+      -webkit-transition: all 0.2s ease-in-out;
+      transform: scale(1.1);
+      transition: all 0.2s ease-in-out;
+      z-index: 9;
+    }
+  }
+
+  .card-body {
+    text-align: center;
+  }
+}
