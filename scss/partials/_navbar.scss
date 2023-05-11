@@ -1,13 +1,4 @@
 /** Navigation Menu Bar **/
 .navbar-menu a {
-  color: $color-black;
-  font-size: 1.5em;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 10px;
-
-  &:hover {
-    background-color: $color-bg-black;
-    color: $color-white !important;
-  }
+  @include links;
 }
