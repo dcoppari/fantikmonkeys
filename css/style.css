@@ -25,6 +25,9 @@ footer a:hover {
   background-color: #000;
   color: white !important;
 }
+footer .fmlogo {
+  width: 50px;
+}
 
 /** Logo formatting **/
 .logo {

@@ -5,4 +5,8 @@ footer {
   a {
     @include links;
   }
+
+  .fmlogo {
+    width: 50px;
+  }
 }
